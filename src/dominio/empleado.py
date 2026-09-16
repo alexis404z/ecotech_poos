@@ -4,5 +4,5 @@ class Empleado:
         self.correo = correo
 
     def mostrar_datos(self) -> str:
-        return f"{self.nombre} - {self.correo}"
+        return f"{self.nombre} -- {self.correo}"
 
